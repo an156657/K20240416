@@ -6,22 +6,26 @@
     <!--Die Styles.css muss aus allen HTML-Dateien verlinkt werden-->
     <link rel="stylesheet" href="styles.css">
     <!--Es gibt im Internet Dienste, die Styles zur Verfügung stellen. Beispiel: font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!--Am Ende muss kein / stehen. Einen / braucht man nur wenn es ein öffenes und ein schließendes Tag gibt.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Borken-Bank - AGB</title>
 </head>
 <body>
     <header>
         <!--Das Symbol der Bank wird aus Font Awesome geladen-->
         <i class="fa-solid fa-piggy-bank"></i>
-        <hrrr>
-        <a href="index.html"><i class="fa-solid fa-home"></i></a> 
+        <!--Um eine horizontale Linie einzugügen, muss man nur "hr" in spitze Klammern schreiben.-->
+        <hr>
+        <!--Hinter dem </i> fehlt der Anzeigename-->
+        <a href="index.html"><i class="fa-solid fa-home"></i>Startseite</a> 
         <a href="hilfe.html"><i class="fa-solid fa-phone"></i> Hilfe</a> 
         <a href="postfach.html"><i class="fa-solid fa-envelope"></i> Postfach</a>
         <a href="profil"><i class="fa-solid fa-user"></i> Profil</a>
         <a href="agb.html"><i class="fa-solid fa-file-lines"></i> AGB</a>
     </header>
     <main>
-        <h2>Allgemeine Geschäftsbedingungen (AGB) - Borken-Bank AG<h2>
+        <!--Am Ende der Überschrift fehlt der / beim schließenden Tag-->
+        <h2>Allgemeine Geschäftsbedingungen (AGB) - Borken-Bank AG</h2>
 
 <p>Stand: 9. April 2024</p>
 
@@ -49,12 +53,13 @@
 <p>Diese Allgemeinen Geschäftsbedingungen treten am 9. April 2024 in Kraft.</p>
 
 
-    </main>
+</main>
 
     <footer>
         <p>Borken-Bank AG</p>
         <p>Geschäftsführer: Hans Dampf, IBAN: DE 55 28 000 000</p>
         <a href="https://www.borken-bankde">Zur Homepage</a> 
-    /footer
+        <!--Um den Footer zu schließen muss man noch spitze Klammern um das Wort footer machen-->
+    </footer>
 </body>
 </html>
